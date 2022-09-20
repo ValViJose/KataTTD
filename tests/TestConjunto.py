@@ -15,4 +15,4 @@ class TestConjunto(unittest.TestCase):
 
     def test_conjunto_nElementos_retornaValorPromedioNElementos(self):
         conjunto = Conjunto([2,4,8,10,15])
-        self.assertEqual((2+4+8+10+15)/6,conjunto.promedio())
+        self.assertEqual((2+4+8+10+15)/5,conjunto.promedio())
